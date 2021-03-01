@@ -1,0 +1,13 @@
+Test1
+W języku C przy kompilacji potrzebuje dołączenia biblioteki matematycznej (-lm), gdy w C++ nie ma takiej potrzeby.
+
+Test2
+W ASCII C przy zapisie sizeof('a') jest podstawiana wartość int, w której mieszczą się polskie znaki.
+Natomiast w ASCII C++ przy zapisie sizeof('a') jest podstawiana wartość char, której maksymalnym znaczeniem jest 255 i polskie znaki już się nie mieszczą.
+
+Test3
+W C++ stała ekstern nie jest zadeklarowana. Dlatego muszimy używać zgodnej stałej static.
+Mimo że stała static jest zadeklarowana w C, nie możemy jej używać w C++ w taki sam sposób.
+
+Test4
+W C++ muszimy podawać ilość argumentów funkcji, gdy w C możemy tego nie podawać.
